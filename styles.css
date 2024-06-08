@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "MS Gothic";
+    src: url('fonts/MS Gothic.ttf');
+}
+
+body {
+    font-family: "MS Gothic", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: "MS Gothic", sans-serif;
+    text-align: center;
+    background-color: lightcoral;
+    padding: 20px;
+}
+
+.music-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.music-container {
+    background-color: lightgrey;
+    border-radius: 8px;
+    padding: 20px;
+    width: 30%;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.music-container:hover {
+    transform: scale(1.05);
+}
+
+.music-item {
+    text-align: center;
+}
+
+.music-name {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.details {
+    display: none;
+    margin-top: 10px;
+}
+
+.music-container:hover .details {
+    display: block;
+}
+
+.pop-name {
+    font-family: "Lobster", sans-serif;
+}
+
+.rock-name {
+    font-family: "Cinzel", serif;
+}
+
+.vgm-name {
+    font-family: "Tiny5", sans-serif;
+}
+
+.indie-name {
+    font-family: "Arvo", serif;
+}
+
+.hiphop-name {
+    font-family: "Bangers", system-ui;
+}
+
+.metal-name {
+    font-family: "Metal Mania", system-ui;
+}
+
+@media (max-width: 768px) {
+    .music-container {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .music-container {
+        width: 90%;
+    }
+}
