@@ -36,3 +36,25 @@ fonts are kinda ugly
 log6 10:43pm
 save then eat quickly my uber eats is here
 
+log 7 10:54pm
+italicized song names
+
+eating while typing this
+
+damn those genre fonts are ugly asf
+
+I might just submit coz im still kind of sick
+
+ but I haven't implemented position anywhere
+
+log 8 10:57pm
+those boxes are not expanding smoothly
+
+i hate the colors
+
+half of the videos wont even play probably something with copyright
+realized i spent most of my time figuring out how to implement google fonts
+
+
+log 9 11pm
+im just gonna hand this in the popeyes order is not sitting well with me

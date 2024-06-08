@@ -25,7 +25,7 @@ header {
 }
 
 .music-container {
-    background-color: lightgrey;
+    background-color: lightblue;
     border-radius: 8px;
     padding: 20px;
     width: 30%;
@@ -91,3 +91,4 @@ header {
         width: 90%;
     }
 }
+
